@@ -1,5 +1,5 @@
 // constants
-const secretKey = "123"
+const secretKey = "День матери!"
 const congritulations = [
     "123",
     "234",
