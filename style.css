@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.get-secret-key-form, .congritulations {
+    margin-top: 10%;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px gray;
+    width: 30%;
+    font-size: 17px;
+}
+
+.secret-key {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    width: 100%;
+
+    transition: .3s;
+}
+
+.secret-key:focus {
+    box-shadow: 0 3px 8px gray;
+}
+
+.buttons {
+    display: flex;
+}
+
+.sign-in {
+    flex: 1;
+}
+
+button {
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 50%;
+
+    transition: .3s;
+}
+
+button:last-of-type {
+    margin-left: 10px;
+}
+
+button:hover {
+    box-shadow: 0 3px 8px gray;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+}
